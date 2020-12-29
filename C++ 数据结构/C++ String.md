@@ -221,7 +221,7 @@ int main(){
 #include <string>
 using namespace std;
 int main(){
-    //clear（）很好解决复用问题但内存消耗大
+    //clear（)很好解决复用问题但内存消耗大
     int size = 100;  
     stringstream strStream;  
     for (int i = 1; i < size; ++i){  
